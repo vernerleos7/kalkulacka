@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('obrazky/78.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.calculator-tabulka {
+    background-color: white;
+}
+
+.tlacitko-cislo {
+    background-color: #D3D3D3;
+    border: none;
+    width: 100%;
+}
+
+.tlacitko-operace {
+    background-color: 	#FFF200;
+    border: none;
+    width: 100%;
+}
+
+.tlacitko-vymazani {
+    background-color: 	#dc3545;
+    border: none;
+    width: 100%;
+}
+
+.tlacitko-cislo:hover {
+    background-color: #808080;
+    transition: 0.2s;
+}
+
+.tlacitko-operace:hover {
+    background-color: #808080;
+    transition: 0.2s;
+}
+
+.tlacitko-vymazani:hover {
+    background-color: #808080;
+    transition: 0.2s;
+}
+
+h1 {
+    color: #312b41;
+}
